@@ -1,0 +1,32 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-indent: 40px;
+    line-height: 40px;
+    list-style-type: none;
+    background: #f7b600 url(img/menu.png) no-repeat left bottom;
+}
+
+ul a:hover {
+    background: url(img/menu.png) no-repeat right bottom;
+    background-color: #f99200;
+    color: #777;
+}
+
+#home .index a, #sobre .sobre a, #galeria .galeria a, #contatos .contatos a, #servicos .servicos a{
+    background: url(img/menu.png) no-repeat right bottom;
+    background-color: #f99200;
+    color: white;
+}
